@@ -1,0 +1,13 @@
+@Inbook{bialy2016software,
+  author    = {Monika Bialy and Vera Pantelic and Jason Jaskolka and Alexander Schaap and Lucian Patcas and Mark Lawford and Alan Wassyng},
+  editor    = {Edward Griffor},
+  title     = {Software Engineering for Model-Based Development by Domain Experts},
+  chapter   = {3},
+  pages     = {39--64},
+  booktitle = {Handbook of System Safety and Security},
+  publisher = {Elsevier},
+  year      = {2016},
+  edition   = {1},
+  month     = oct,
+  isbn      = {9780128037737}
+}

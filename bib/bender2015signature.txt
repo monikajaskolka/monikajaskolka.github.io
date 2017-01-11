@@ -1,0 +1,13 @@
+@Article{bender2015signature,
+  author =    {Marc Bender and Karen Laurin and Mark Lawford and Vera Pantelic and Alexandre Korobkine and Jeff Ong and Bennett Mackenzie and Monika Bialy and Steven Postma},
+  title =     {Signature Required: Making {S}imulink Data Flow and Interfaces Explicit},
+  journal =   {Science of Computer Programming},
+  year =      {2015},
+  volume =    {113, Part 1},
+  pages =     {29--50},
+  issn =      {0167-6423},
+  note =      {Model Driven Development (Selected \&amp; extended papers from {MODELSWARD} 2014)},
+  doi =       {10.1016/j.scico.2015.07.005},
+  publisher = {Elsevier},
+  url =       {http://www.sciencedirect.com/science/article/pii/S0167642315001392}
+}
