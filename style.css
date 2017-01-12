@@ -92,7 +92,7 @@ em.light {
   font-weight: 200;
 }
 
-a:link, a:visited, a:hover, a:active {
+a:link, a:visited, a:active {
   color: #808080;
   text-decoration: none;
 }
@@ -174,13 +174,8 @@ span.dummy {
   width: 100%;
 }
 
-#copyright a:link, a:visited, a:hover, a:active {
+#copyright a:link, #copyright a:visited, #copyright a:active {
   color: #cccccc;
-}
-
-#copyright:hover {
-  color: #4c4c4c;
-  transition: color 0.5s;
 }
 
 #copyright a:hover {
