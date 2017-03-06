@@ -19,9 +19,21 @@ body {
   color: #ffffff;
   font-family: 'Roboto', Sans-Serif;
   font-size: 31pt;
-  font-weight: 200;
+  font-weight: 100;
   letter-spacing: 10px;
   padding: 30px 10% 30px 8%;
+}
+
+a:link.nee, a:visited.nee, a:active.nee  {
+  color: #555555;
+  font-size: 29pt;
+  letter-spacing: 8px;
+  text-decoration: none;
+}
+
+a:hover.nee {
+  color: #777777;
+  transition: 0.3s;
 }
 
  /*----------------- Navigation -----------------*/
@@ -88,7 +100,7 @@ p {
 
 em.light {
   color: #666666;
-  font-weight: 200;
+  font-weight: 100;
 }
 
 a:link, a:visited, a:active {
@@ -120,7 +132,7 @@ h3 {
   margin: 0;
   padding: 5px 0 2px 0;
   font-size: 9pt;
-  font-weight: 200;
+  font-weight: 100;
 }
 
 span.dummy {
@@ -163,6 +175,14 @@ span.dummy {
   margin: 40px 20%;
   padding: 20px;
   text-align: justify;
+}
+
+#main b {
+  font-weight: 700;
+}
+
+iframe {
+  border: 0px;
 }
 
  /*------------------ Copyright -------------------*/
