@@ -1,4 +1,4 @@
-# Minimal-Website
-My personal website, using static pages and minimalism.
+# monikajaskolka/Personal-Website
+My personal website at www.cas.mcmaster.ca/~bialym2
 
-[www.cas.mcmaster.ca/~bialym2]
+![Website Screenshot](https://github.com/monikajaskolka/Personal-Website/blob/master/images/mainpage.png "Website Screenshot")
