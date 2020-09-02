@@ -13,38 +13,38 @@ body {
   font-size: 10pt;
 }
 
- /*----------------- Header Name -----------------*/
+* {
+  box-sizing: border-box;
+}
+
+/*----------------- Header Name -----------------*/
 #name {
   background-color: #111111;
   color: #ffffff;
   font-family: 'Roboto', Sans-Serif;
-  font-size: 31pt;
+  font-size: 32pt;
   font-weight: 100;
-  letter-spacing: 10px;
+  letter-spacing: 14px;
   padding: 30px 10% 30px 8%;
 }
 
-a:link.nee, a:visited.nee, a:active.nee  {
-  color: #555555;
-  font-size: 29pt;
-  letter-spacing: 8px;
+#name a:link, #name a:visited, #name a:active, #name a:hover  {
+  color: #ffffff;
   text-decoration: none;
 }
 
-a:hover.nee {
-  color: #777777;
-  transition: 0.3s;
-}
-
- /*----------------- Navigation -----------------*/
+/*----------------- Navigation -----------------*/
 #nav {
   background-color: #282828;
   font-size: 10pt;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   margin: 0;
   overflow: hidden;
   text-align: center;
   text-transform: uppercase;
+  -moz-box-shadow: 0px 2px 8px rgba(0, 0, 0,0.5);
+  -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, .5);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, .5);
 }
 
 #nav ul {
@@ -73,23 +73,13 @@ a:hover.nee {
   transition: 0.3s;
 }
 
- /*----------------- Main Content -----------------*/
- /*------------------- General --------------------*/
- #wrapper { /* Needed to make the footer sticky */
-   min-height: 100%;
-   position: relative;
- }
-
+/*----------------- Main Content -----------------*/
+/*------------------- General --------------------*/
 img.icon {
-  filter: alpha(opacity=75);
   opacity: 0.57;
   padding: 0 2px;
-  vertical-align: bottom;
-}
-
-img.social {
-  filter: alpha(opacity=75);
-  opacity: 0.75;
+  vertical-align: middle;
+  width: 20px;
 }
 
 p {
@@ -121,55 +111,78 @@ a.invisible:link, a.invisible:visited, a.invisible:hover, a.invisible:active {
   text-decoration: none;
 }
 
+a.award:link, a.award:visited, a.award:active {
+  color:#d27b7b;
+}
+
+a.award:hover {
+    color:#dd3738;
+}
+
 h2 {
   margin: 0;
-  padding: 3px 0 5px 0;
-  font-size: 14pt;
+  padding: 3px 0 8px 0;
+  font-size: 18pt;
   font-weight: 300;
+}
+
+h2.title {
+  font-size: 16pt;
 }
 
 h3 {
   margin: 0;
   padding: 5px 0 2px 0;
+  font-size: 14pt;
+  font-weight: 100;
+}
+
+h4 {
+  margin: 0;
+  padding: 5px 0 2px 0;
   font-size: 9pt;
   font-weight: 100;
+  float: right;
 }
 
 span.dummy {
   display: none;
 }
 
- /*----------------- Index Page ------------------*/
-#index-main img.portrait {
+/*----------------- Index Page ------------------*/
+img.portrait {
+  max-width: 100%;
   height: auto;
-  width: 200px;
 }
 
-#index-main table {
-  border-collapse: collapse;
-  margin: 5% auto;	/* Auto centers table in div */
-  max-width: 1100px;
+.column {
+  float: left;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-#index-main td {
-  vertical-align: top;
-}
-
-#index-main td.left {
-  font-size: 9pt;
-  padding: 15px 40px 30px 20px;
+.left {
+  width: 35%;
   text-align: right;
-  width: 320px;
 }
 
-#index-main td.right {
-  line-height: 200%;
-  max-width: 700px;
-  padding: 15px 40px 30px 40px;
+.right {
+  width: 65%;
   text-align: justify;
+  line-height: 190%;
+  max-width: 720px;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
- /*----------------- Other Pages ------------------*/
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*----------------- Other Pages ------------------*/
 #main {
   height: 100%;
   margin: 40px 20%;
@@ -185,10 +198,10 @@ iframe {
   border: 0px;
 }
 
- /*------------------ Copyright -------------------*/
+/*------------------ Copyright -------------------*/
 #copyright {
   bottom: 0;
-  color: #cccccc;
+  color: #b3b3b3;
   font-size: 8pt;
   letter-spacing: 3px;
   margin: 30px 0 10px 0;
@@ -200,7 +213,42 @@ iframe {
 }
 
 #copyright:hover {
-  color: #4c4c4c;
+  color: #4d4d4d;
   transition: color 0.5s;
   -webkit-transition: color 0.5s;
+}
+
+/*------------------  Responsive layout -------------------*/
+@media screen and (max-width: 700px) {
+  .column {
+    width: 100%;
+    padding: 15px 40px;
+  }
+  .left {
+    text-align: center;
+    padding-top: 5%;
+  }
+  .right {
+    line-height: 150%;
+  }
+  p {
+    padding: 5px 0 10px 0;
+  }
+  h2 {
+    padding: 3px 0 3px 0;
+  }
+  #main {
+    height: 100%;
+    margin: 5px 0%;
+    padding: 20px;
+    text-align: left;
+  }
+  #name {
+    text-align:center;
+    padding: 3% 0;
+  }
+  h4 {
+    float: none;
+    clear: both;
+  }
 }
