@@ -157,6 +157,10 @@ span.dummy {
 }
 
 /*----------------- Index Page ------------------*/
+
+#social-buttons {
+    padding-top: 7px;
+}
 img.portrait {
   max-width: 100%;
   height: auto;
@@ -189,10 +193,6 @@ img.portrait {
   clear: both;
 }
 
-#social-buttons {
-    padding-top: 7px;
-}
-
 /*----------------- Other Pages ------------------*/
 #main {
   height: 100%;
@@ -207,26 +207,6 @@ img.portrait {
 
 iframe {
   border: 0px;
-}
-
-/*------------------ Copyright -------------------*/
-#copyright {
-  bottom: 0;
-  color: #b3b3b3;
-  font-size: 8pt;
-  letter-spacing: 3px;
-  margin: 30px 0 10px 0;
-  position: absolute;
-  text-align: center;
-  transition: color 0.5s;
-  -webkit-transition: color 0.5s;
-  width: 100%;
-}
-
-#copyright:hover {
-  color: #4d4d4d;
-  transition: color 0.5s;
-  -webkit-transition: color 0.5s;
 }
 
 /*------------------  Responsive layout -------------------*/
