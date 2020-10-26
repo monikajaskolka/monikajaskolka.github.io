@@ -1,6 +1,8 @@
 @font-face {
-    font-family: Roboto;
+    font-family: Roboto-Thin;
     src: url("../monikajaskolka.github.io/fonts/Roboto-Thin.ttf") format('truetype');
+    font-weight: 100;
+    font-style: normal;
 }
 
 html, body {	/* Make webpage cover entire browser viewport */
@@ -26,7 +28,7 @@ body {
 #name {
   background-color: #111111;
   color: #ffffff;
-  font-family: 'Roboto', Sans-Serif;
+  font-family: 'Roboto-Thin', Sans-Serif;
   font-size: 32pt;
   font-weight: 100;
   letter-spacing: 14px;
