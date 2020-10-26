@@ -189,6 +189,10 @@ img.portrait {
   clear: both;
 }
 
+#social-buttons {
+    padding-top: 7px;
+}
+
 /*----------------- Other Pages ------------------*/
 #main {
   height: 100%;
