@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../monikajaskolka.github.io/fonts/Roboto-Thin.ttf") format('truetype');
+}
+
 html, body {	/* Make webpage cover entire browser viewport */
   height: 100%;
   margin: 0;
