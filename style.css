@@ -202,33 +202,33 @@ iframe {
 
 /*------------------  Responsive layout -------------------*/
 @media screen and (max-width: 700px) {
-  .column {
+
+#index {
     width: 100%;
     padding: 15px 40px;
-  }
-  .left {
-    text-align: center;
-    padding-top: 5%;
-  }
-  .right {
     line-height: 150%;
   }
+
   p {
     padding: 5px 0 10px 0;
   }
+
   h2 {
     padding: 3px 0 3px 0;
   }
+
   #main {
     height: 100%;
     margin: 5px 0%;
     padding: 20px;
     text-align: left;
   }
+
   #name {
     text-align:center;
     padding: 3% 0;
   }
+
   h4 {
     float: none;
     clear: both;
