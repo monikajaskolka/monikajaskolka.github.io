@@ -203,10 +203,11 @@ iframe {
 /*------------------  Responsive layout -------------------*/
 @media screen and (max-width: 700px) {
 
-#index {
+  #index {
     width: 100%;
-    padding: 15px 40px;
+    padding: 10px 20px;
     line-height: 150%;
+    margin: 20px 4px;
   }
 
   p {
