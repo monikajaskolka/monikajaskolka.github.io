@@ -6,7 +6,6 @@
 }
 
 html, body {	/* Make webpage cover entire browser viewport */
-  height: 100%;
   margin: 0;
   min-height: 100%;
   padding: 0;
@@ -33,6 +32,7 @@ body {
   font-weight: 100;
   letter-spacing: 14px;
   padding: 30px 10% 30px 8%;
+  text-align: center;
 }
 
 #name a:link, #name a:visited, #name a:active, #name a:hover  {
@@ -70,7 +70,7 @@ body {
   color: #d0d0d0;
   display: inline-block;
   letter-spacing: 4px;
-  padding: 5px 20px;
+  padding: 20px 20px;
   text-align: center;
   text-decoration: none;
 }
@@ -158,42 +158,33 @@ span.dummy {
 
 /*----------------- Index Page ------------------*/
 
-#social-buttons {
-    padding-top: 7px;
-}
-img.portrait {
-  max-width: 100%;
-  height: auto;
-}
-
-.column {
-  float: left;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.left {
-  width: 35%;
-  text-align: right;
-}
-
-.right {
-  width: 65%;
+#index {
+  width: 60%;
+  margin: 40px 20%;
+  padding: 20px;
   text-align: justify;
   line-height: 190%;
-  max-width: 720px;
   padding-left: 4%;
   padding-right: 4%;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+#index img.portrait {
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 30px;
 }
 
-/*----------------- Other Pages ------------------*/
+#social-buttons {
+    text-align: center;
+    padding-top: 7px;
+}
+
+#social-buttons img {
+    margin: 0 5px;
+}
+
+/*----------------- Pages ------------------*/
 #main {
   height: 100%;
   margin: 40px 20%;
