@@ -160,7 +160,7 @@ span.dummy {
 
 #index {
   width: 60%;
-  margin: 40px 20%;
+  margin: 30px 20%;
   padding: 20px;
   text-align: justify;
   line-height: 190%;
@@ -187,7 +187,7 @@ span.dummy {
 /*----------------- Pages ------------------*/
 #main {
   height: 100%;
-  margin: 40px 20%;
+  margin: 30px 20%;
   padding: 20px;
   text-align: justify;
 }
@@ -208,7 +208,7 @@ iframe {
 
   #index {
     width: 100%;
-    padding: 10px 20px;
+    padding: 15px 20px;
     line-height: 150%;
     margin: 20px 4px;
   }
